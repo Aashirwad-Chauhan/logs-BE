@@ -17,6 +17,9 @@ app.use(express.json());
 app.use(cors({
     origin: [
         "http://localhost:5173",
+        "https://logs-25ktygvk9-aashirwad-chauhans-projects.vercel.app",
+        "https://logs-fe.vercel.app",
+        "https://logs-fe-aashirwad-chauhans-projects.vercel.app",
         "http://localhost:5174",
         "http://localhost:4173",
         process.env.FRONT_END_URL,
